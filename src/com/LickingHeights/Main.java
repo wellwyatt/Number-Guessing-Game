@@ -16,8 +16,15 @@ public class Main {
 
 	        if (userNum < secretNum ){
 
-	            System.out.println("Number is too low, Try Again.");
+	            System.out.println("Number is too low, Try Again!");
             }
-        }
+            else if  (userNum > secretNum){
+
+	            System.out.println("Number is too high, Tyr Again!");
+            }
+	        
+
+	    }
+
     }
 }
